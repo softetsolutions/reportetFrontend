@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReportET — Field Force Reporting Platform</title>
+    <meta
+      name="description"
+      content="ReportET helps medical distribution businesses track daily reporting, tour plans, live field tracking, doctor visits, leave, and payroll — all in one platform."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="nav-inner">
+        <a href="/" class="logo">Report<span>ET</span></a>
+        <div class="nav-actions">
+          <span data-auth-logged-out>
+            <a class="btn btn-ghost" data-auth-signup href="#">Signup</a>
+            <a class="btn btn-primary" data-auth-login href="#">Login</a>
+          </span>
+          <span data-auth-logged-in hidden>
+            <a class="btn btn-primary" data-auth-dashboard href="#"
+              >Go to Dashboard</a
+            >
+          </span>
+        </div>
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-header">
+        <a href="/" class="logo">Report<span>ET</span></a>
+        <button type="button" id="menu-close" aria-label="Close menu">✕</button>
+      </div>
+      <div class="mobile-menu-actions">
+        <span data-auth-logged-out>
+          <a class="btn btn-ghost" style="width: 100%" data-auth-signup href="#"
+            >Signup</a
+          >
+          <a
+            class="btn btn-primary"
+            style="width: 100%; margin-top: 0.75rem"
+            data-auth-login
+            href="#"
+            >Login</a
+          >
+        </span>
+        <span data-auth-logged-in hidden>
+          <a
+            class="btn btn-primary"
+            style="width: 100%"
+            data-auth-dashboard
+            href="#"
+            >Go to Dashboard</a
+          >
+        </span>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Field Force Reporting Platform</p>
+        <h1>
+          Every Visit, Every Report,
+          <span class="grad">One Platform.</span>
+        </h1>
+        <div class="divider"></div>
+        <p class="hero-lead">
+          ReportET helps medical distribution businesses run daily tour plans,
+          visit reporting, live field tracking, sales, leave, and payroll across
+          every headquarter — so your field team works on one system, not five.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-gradient" data-whatsapp href="#">
+            For Demo - WhatsApp →
+          </a>
+        </div>
+        <div class="trust-row">
+          <div><span class="dot"></span>Admin · Area Manager · MR</div>
+          <div><span class="dot"></span>Tour plans &amp; live tracking</div>
+          <div><span class="dot"></span>Leave, payroll &amp; sales in one place</div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-head">
+          <p class="eyebrow">Features Overview</p>
+          <h2>Built for the Way Your Field Team Works</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon g-indigo">👥</div>
+            <h3>Role-Based Access</h3>
+            <p>
+              Purpose-built views for Admin, Area Manager, Zonal Manager, and MR
+              — each seeing exactly the data relevant to their role.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-blue">📋</div>
+            <h3>Daily &amp; Monthly Reporting</h3>
+            <p>
+              MRs submit daily visit reports and monthly sales reports directly
+              from the app — no paperwork, no spreadsheets.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-emerald">🗺</div>
+            <h3>Daily Tour Plans</h3>
+            <p>
+              Plan and review daily routes for MRs and managers, so every visit
+              day starts with a clear schedule and coverage goals.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-cyan">📍</div>
+            <h3>Live Employee Tracking</h3>
+            <p>
+              See field employees in real time on the map — session status,
+              routes, and location visibility for admins and managers.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-violet">⏱</div>
+            <h3>Missed Doctor Tracking</h3>
+            <p>
+              MRs and Area Managers instantly see which doctors were missed, so
+              no visit plan falls through the cracks.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-sky">📊</div>
+            <h3>Sales &amp; Visit Insights</h3>
+            <p>
+              Headquarter-wise sales, visit reports, doctor visit reports, and
+              call averages — broken down by MR, doctor, and HQ.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-amber">🏖</div>
+            <h3>Leave Management</h3>
+            <p>
+              Apply, approve, and track leaves with configurable leave settings
+              and leave reports built into the same admin panel and mobile app.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-purple">💼</div>
+            <h3>Payroll &amp; Payslips</h3>
+            <p>
+              Run payroll, manage holidays and settings, and let employees view
+              payslips on mobile — without a separate HR tool.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon g-rose">🏪</div>
+            <h3>Stockist &amp; Masters</h3>
+            <p>
+              Manage stockists, doctors, areas, and headquarters — plus employee
+              onboarding and notifications — all from one admin panel.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="band-inner">
+          <div>
+            <h2>Built to Simplify Field Force Management</h2>
+            <p>
+              Whether you manage a handful of MRs or a field force spread across
+              dozens of headquarters, ReportET keeps tour plans, live tracking,
+              reporting, sales, leave, and payroll on one system — purpose-built
+              for medical distribution businesses.
+            </p>
+            <a class="btn btn-white" data-whatsapp href="#">For Demo - WhatsApp</a>
+          </div>
+          <div class="stat-grid">
+            <div class="stat">
+              <strong>Daily</strong><span>Tour plans &amp; visit reports</span>
+            </div>
+            <div class="stat">
+              <strong>Live</strong><span>Field employee tracking</span>
+            </div>
+            <div class="stat">
+              <strong>4 Roles</strong><span>Admin · ZM · AM · MR</span>
+            </div>
+            <div class="stat">
+              <strong>1 Platform</strong><span>Reporting + leave + payroll</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 6rem">
+        <div class="section-head">
+          <p class="eyebrow">Two Platforms, One System</p>
+          <h2>Admin Panel &amp; Mobile App</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="platform-grid">
+          <article class="platform-card">
+            <span class="pill pill-indigo">Admin Panel</span>
+            <h3>Complete visibility, from HQ to doctor</h3>
+            <p>
+              Everything your admin team needs to see how the field force is
+              performing, in one dashboard.
+            </p>
+            <ul class="checklist">
+              <li>Live tracking map and employee directory</li>
+              <li>Tour plans, visit, sales, and call-average reports</li>
+              <li>Leave approvals, leave settings, and leave reports</li>
+              <li>Payroll runs, holidays, stockists, and HQ masters</li>
+            </ul>
+          </article>
+          <article class="platform-card">
+            <span class="pill pill-emerald">Mobile App</span>
+            <h3>Built for the MR and Area Manager, on the move</h3>
+            <p>
+              A simple app to log visits, follow tour plans, and stay on top of
+              doctor coverage — right from the field.
+            </p>
+            <ul class="checklist">
+              <li>Daily reporting, visit logs, and sales on the go</li>
+              <li>Daily tour plans and live tracking sessions</li>
+              <li>Leave management and payslip access</li>
+              <li>Notifications, doctor list, and subordinate visit view</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="audience">
+          <div>
+            <h2>Made for Medical Distribution Businesses</h2>
+            <p>
+              If you run a field force of Medical Representatives and Area
+              Managers — five or five hundred — ReportET is built around how
+              your business actually operates: tour plans, doctor visits, live
+              field visibility, headquarter-wise sales, and the HR work that
+              keeps a field team running.
+            </p>
+          </div>
+          <div class="tags">
+            <span class="tag">Medical Representatives</span>
+            <span class="tag">Area Managers</span>
+            <span class="tag">Admin Teams</span>
+            <span class="tag">Daily Tour Plans</span>
+            <span class="tag">Live Field Tracking</span>
+            <span class="tag">Multi-Headquarter Operations</span>
+            <span class="tag">Doctor Visit Compliance</span>
+            <span class="tag">Leave &amp; Payroll</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <h2>Bring Your Field Force Onto One Platform</h2>
+        <p>
+          See how ReportET handles tour plans, live tracking, reporting, sales,
+          leave, and payroll for teams like yours.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-gradient" data-whatsapp href="#">For Demo - WhatsApp</a>
+          <span data-auth-logged-out>
+            <a class="btn btn-ghost" data-auth-login href="#">Login</a>
+          </span>
+          <span data-auth-logged-in hidden>
+            <a class="btn btn-ghost" data-auth-dashboard href="#"
+              >Go to Dashboard</a
+            >
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="logo">Report<span>ET</span></a>
+          <p style="margin-top: 1rem">
+            Sales Force Automation for medical field teams — tour plans, live
+            tracking, reporting, leave, and payroll in one place.
+          </p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a data-whatsapp href="#">For Demo - WhatsApp</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>App</h4>
+          <ul>
+            <li data-auth-logged-out>
+              <a data-auth-login href="#">Login</a>
+            </li>
+            <li data-auth-logged-out>
+              <a data-auth-signup href="#">Signup</a>
+            </li>
+            <li data-auth-logged-in hidden>
+              <a data-auth-dashboard href="#">Go to Dashboard</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <p>
+            <a data-whatsapp href="#">For Demo - WhatsApp +91 63876 51169</a>
+          </p>
+          <p>support@softetsolutions.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/whatsapp.js"></script>
+  </body>
+</html>
